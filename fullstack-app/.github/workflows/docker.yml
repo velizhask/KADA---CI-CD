@@ -22,6 +22,6 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v4
         with:
-          context: ./backend     # Ganti kalau frontend
+          context: ./fullstack-app/backend     # Ganti kalau frontend
           push: true
           tags: sujel/pengenpulang:latest
